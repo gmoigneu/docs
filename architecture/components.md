@@ -1,4 +1,4 @@
-# System Components
+# System Components 
 
 Our stack is built was built from scratch with performance, security and reliability in mind. This page covers the main components of the amazee.io stack.
 
@@ -12,7 +12,7 @@ Our servers are set up using the latest [LTS (Long Term Support)](https://wiki.u
 
 Every browser request needs to be forwarded to PHP and Drupal. amazee.io uses the industry-standard, super-fast webserver [NGINX](http://nginx.org/); not only for PHP but also for HTTPS offloading. Should you require a special configuration, feel free to apply your custom nginx settings.
 
-## Frontend Caching: Varnish
+## Frontend Caching: Varnish Cache
 
 [Varnish](https://www.varnish-cache.org/) is an HTTP accelerator designed for content-heavy dynamic websites. Varnish is used by many high-profile, high-traffic websites including Wikipedia or The Guardian. We're using Varnish since a long time and he never let us down. As traffic spikes, he'll get you covered.
 
